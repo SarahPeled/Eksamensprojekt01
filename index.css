@@ -1,3 +1,84 @@
-body {
-background-color: grey;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html {
+scroll-behavior: smooth;
 }
+
+body {
+background-color: #272727;
+font-family: "Open+Sans", sans-serif;
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+	/*color: rgb(116, 174, 255);*/
+    text-shadow: 0px 0px 25px rgb(65, 183, 247);
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: none;
+	padding: 0px 30%;
+    margin: 35px;
+	list-style: none;
+    text-decoration: none;
+}
+
+#frontpage {grid-area: fp;}
+#frontpage-photo {grid-area: fpp;}
+#about {grid-area: a;}
+#about-photo {grid-area: ap;}
+#timeline-photo {grid-area: tp;}
+#timeline {grid-area: t;}
+#skills {grid-area: s;}
+#skills-photo {grid-area: sp;}
+#projects {grid-area: p;}
+#projects-photo {grid-area: pp;}
+#more-projects {grid-area: mp;}
+#more-projects-photo {grid-area: mpp;}
+#contact {grid-area: c;}
+#contact-photo {grid-area: cp;}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-areas: 
+        "fp fpp"
+        "a ap"
+        "tp t"
+        "s sp"
+        "p pp"
+        "mp mpp"
+        "c cp";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 750px 850px 850px 850px 850px 850px 850px;
+}
+
+.container > * {
+    background-color: rgb(162, 216, 249); 
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 35px;
+    text-align: center;
+
+}
+
+
+
