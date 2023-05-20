@@ -11,6 +11,11 @@ color: #b1b0b0;
 font-size: 20px;
 }
 
+h1 {
+    color: #FFFFFF;
+    font-size: 66px;
+}
+
 h2 {
     color: #FFFFFF;
     font-size: 40px;
@@ -70,6 +75,7 @@ a:hover {
     background-color: none;
 	padding: 0px 30%;
     margin: 35px;
+    margin-bottom: 50px;
 	list-style: none;
     text-decoration: none;
 }
