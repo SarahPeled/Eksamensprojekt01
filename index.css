@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 html {
-scroll-behavior: smooth;
+scroll-behavior: smooth; /*smooth automatic scroll after clicking e.g. "contact"*/
 }
 
 body {
@@ -36,15 +36,18 @@ section {
     margin-right: 130px;
 }
 
-.hire {
+.hire-button {
     background-color: #1bb9e5;
     color: #272727;
     font-size: 24px;
     font-weight: 600;
     padding: 12px 30px;
-    margin-top: 20px;
     border-radius: 8px;
     border: none;
+}
+
+#hire {
+    margin-top: 50px;
 }
 
 li, a {
@@ -112,8 +115,7 @@ a:hover {
 .container {
     display: flex;
     margin-bottom: 200px;
-    /*flex-wrap: wrap;
-    justify-content: space-between;*/
+    justify-content: center;
 }
 
 .child-container {
