@@ -74,6 +74,7 @@ p {
     width: 25vh;
     position: absolute;
     bottom: 0;
+    z-index: 1;
 }
 
 #mail-open {
@@ -82,6 +83,7 @@ p {
     position: absolute;
     bottom: 0;
     opacity: 0;
+    z-index: 2;
 }
 
 #mail-open:hover {
@@ -273,6 +275,19 @@ footer {
         flex-direction: column-reverse;
     }
 
+    #mail-open:active {
+        opacity: 1;
+        transition: ease-in 0.1s;
+    }
+
   }
 
+  @media screen and (min-width: 1440px) {
+  .icon-list {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    justify-content: center;
+    list-style: none;
+    }
+  }
 
