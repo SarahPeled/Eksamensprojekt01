@@ -9,6 +9,7 @@ background-color: #272727;
 font-family: "Open+Sans", sans-serif;
 color: #b1b0b0;
 font-size: 16px;
+margin: 0;
 }
 
 h1 {
@@ -35,6 +36,57 @@ p {
     height: 85vh;
     width: auto;
     margin-left: 10%;
+}
+
+#contact-photo {
+    height: 70vh;
+    border-radius: 2%;
+}
+
+#mail {
+    display: flex;
+    align-items: center;
+}
+
+#mail-icon {
+    height: 50px;
+    width: auto;
+}
+
+#mail-icon:hover {
+    filter: drop-shadow(0 0 15px rgb(65, 183, 247));
+}
+
+#mail-text {
+    font-size: 16px;
+    color: #b1b0b0;
+    margin-left: 15px;
+}
+
+.double-mail {
+    margin-top: 100px;
+    position: relative;
+    margin-top: 210px;
+}
+
+#mail-closed {
+    height: auto;
+    width: 25vh;
+    position: absolute;
+    bottom: 0;
+}
+
+#mail-open {
+    height: auto;
+    width: 25vh;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+}
+
+#mail-open:hover {
+    opacity: 1;
+    transition: ease-in-out 0.1s;
 }
 
 section {
@@ -154,6 +206,7 @@ a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    list-style: none;
 }
 
 .skill-icon {
@@ -171,14 +224,32 @@ a:hover {
 .skill-icon > img {
     height: 60px;
     width: auto;
+    align-self: center;
 }
+
+/*.text {
+    background-color: #1bb9e5;
+    color: #272727;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 8%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 10px;
+    opacity: 80%;
+}*/
 
 footer {
     color: #ffffff;
     font-weight: 500;
     font-size: 18px;
-    margin: 35px;
     text-align: center;
+    padding: 25px;
+    background-color: #202020;
 
 }
 
