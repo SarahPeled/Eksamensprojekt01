@@ -8,17 +8,17 @@ body {
 background-color: #272727;
 font-family: "Open+Sans", sans-serif;
 color: #b1b0b0;
-font-size: 20px;
+font-size: 16px;
 }
 
 h1 {
     color: #FFFFFF;
-    font-size: 66px;
+    font-size: 58px;
 }
 
 h2 {
     color: #FFFFFF;
-    font-size: 40px;
+    font-size: 36px;
 }
 
 p {
@@ -27,13 +27,14 @@ p {
 }
 
 #portrait {
-    height: 700px;
+    height: 78vh;
     width: auto;
 }
 
 #about-photo {
-    height: 725px;
+    height: 85vh;
     width: auto;
+    margin-left: 10%;
 }
 
 section {
@@ -41,27 +42,37 @@ section {
     margin-right: 130px;
 }
 
-.hire-button {
+.get-in-touch-button {
     background-color: #1bb9e5;
     color: #272727;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     padding: 12px 30px;
     border-radius: 8px;
     border: none;
 }
 
-.hire-button:hover {
+.get-in-touch-button:hover, .hire-button:hover {
     box-shadow: 0px 0px 15px 0.5px rgb(65, 183, 247);
 }
 
-#hire {
+#get-in-touch, #hire {
     margin-top: 50px;
+}
+
+.hire-button {
+    background-color: #1bb9e5;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 54px;
+    border-radius: 8px;
+    border: none;
 }
 
 li, a {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
 }
@@ -124,6 +135,7 @@ a:hover {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 200px;
     justify-content: center;
 }
@@ -138,6 +150,29 @@ a:hover {
     margin-bottom: 50px;
 }
 
+.icon-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-icon {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 8%;
+    box-shadow: 0px 0px 55px 10px rgb(18, 18, 18);
+    justify-content: center;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+.skill-icon > img {
+    height: 60px;
+    width: auto;
+}
+
 footer {
     color: #ffffff;
     font-weight: 500;
@@ -147,15 +182,26 @@ footer {
 
 }
 
-
-@media (min-width: 600px) and (max-width: 1000px) {
-    body {
-        font-size: 16px;
+@media screen and (max-width: 768px) {
+    section {
+      margin-left: 20px;
+      margin-right: 20px;
     }
 
-    .child-container {
-        flex-wrap: wrap;
+    #portrait {
+        height: 40vh;
+        width: auto;
+      }
+
+    #about-photo {
+        height: 50vh;
+        width: auto;
     }
-}
+
+    .flip {
+        flex-direction: column-reverse;
+    }
+
+  }
 
 
