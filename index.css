@@ -51,6 +51,10 @@ section {
     border: none;
 }
 
+.hire-button:hover {
+    box-shadow: 0px 0px 15px 0.5px rgb(65, 183, 247);
+}
+
 #hire {
     margin-top: 50px;
 }
@@ -126,10 +130,12 @@ a:hover {
 
 .child-container {
     flex: 1;
+    align-self: center;
+
 }
 
-.photo-container {
-    text-align: center;
+.container-skills1 {
+    margin-bottom: 50px;
 }
 
 footer {
@@ -141,15 +147,14 @@ footer {
 
 }
 
-@media (max-width: 600px) {
-    body {
-        background-color: blue;
-    }
-}
 
-@media (min-width: 601px) and (max-width: 1600px) {
+@media (min-width: 600px) and (max-width: 1000px) {
     body {
-        background-color: red;
+        font-size: 16px;
+    }
+
+    .child-container {
+        flex-wrap: wrap;
     }
 }
 
