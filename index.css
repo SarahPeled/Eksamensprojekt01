@@ -141,9 +141,9 @@ a:hover {
 	justify-content: space-around;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-color: none;
-	padding: 0px 30%;
-    margin: 35px;
+    background-color: #202020;
+	padding: 25px 30%;
+    margin: 0px;
     margin-bottom: 50px;
 	list-style: none;
     text-decoration: none;
