@@ -5,10 +5,16 @@
     <title>SarahPeled Portfolio</title>
     <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <nav>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills1">Skills</a></li>
@@ -17,6 +23,15 @@
             </ul>
         </nav>
     </header>
+
+    <div class="overlay">
+        <ul class="overlay-nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills1">Skills</a></li>
+            <li><a href="#projects1">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
     <!--<main class="container">
             <div id="frontpage">Frontpage</div>
             <div id="frontpage-photo">FrontpagePhoto</div>
@@ -257,6 +272,7 @@
                                 <div class="box-photo">
                                     <img src="img/box-model.png" alt="photo of project">
                                 </div>
+                            </a>
                                 <h3>Box Model</h3>
                             </div>
                             <div class="box">
