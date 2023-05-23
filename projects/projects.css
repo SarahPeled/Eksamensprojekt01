@@ -49,6 +49,10 @@ section {
     margin-right: 50px;
 }
 
+.right {
+    justify-content: center;
+}
+
 a {
     color: #1bb9e5;
     text-decoration: none;
