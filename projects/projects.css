@@ -50,7 +50,6 @@ section {
 }
 
 .right {
-
     justify-content: center;
 }
 
@@ -65,6 +64,6 @@ a:hover {
 
 img {
     height: auto;
-    width: 600;
+    width: 540px;
     border-radius: 7px;
 }
