@@ -262,6 +262,10 @@ a:hover {
     margin-top: 60px;
 }
 
+.box-photo {
+    transition: transform 0.2s ease-in-out;
+}
+
 .box-photo > img {
     width: 280px;
     border-radius: 3px;
@@ -283,8 +287,7 @@ a:hover {
     padding: 0px;
     margin-bottom: 40px;
     border-radius: 12px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
+    box-shadow: 0px 0px 35px 1px rgb(18, 18, 18);
 }
 
 .box > h3 {
@@ -326,7 +329,7 @@ a:hover {
     width: 60px;
     background-color: white;
     border-radius: 8%;
-    box-shadow: 0px 0px 55px 10px rgb(18, 18, 18);
+    box-shadow: 0px 0px 65px 15px rgb(18, 18, 18);
     justify-content: center;
     padding: 10px 10px;
     margin: 10px;
