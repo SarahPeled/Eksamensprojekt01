@@ -171,7 +171,6 @@ a:hover {
     content: "";
     position: absolute;
     width: 2px;
-    background-color: none;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -182,7 +181,6 @@ a:hover {
     width: 350px;
     padding: 0px 15px;
     border: 3px solid #1bb9e5;
-    background-color: none;
     position: relative;
     margin-bottom: 20px;
 }
