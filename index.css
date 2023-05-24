@@ -393,7 +393,7 @@ footer {
 
     #mail-open:active {
         opacity: 1;
-        transition: ease-in 0.1s;
+        /*transition: ease-in 0.1s; REMOVED BC FELT WEIRD */
     }
 
     .nav-links {
