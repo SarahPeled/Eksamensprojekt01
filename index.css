@@ -17,6 +17,10 @@ section {
     margin-right: 130px;
 }
 
+#frontpage {
+    height: 100vh;
+}
+
 /*HEADINGS START*/
 h1 {
     color: #FFFFFF;
@@ -47,7 +51,6 @@ p {
 #about-photo {
     height: 85vh;
     width: auto;
-    margin-left: 10%;
 }
 
 #contact-photo {
@@ -200,16 +203,16 @@ a:hover {
     margin-top: -10px;
 }
 
-.event.right::before {
+.event > .right::before {
     left: auto;
     right: -10px;
 }
 
-.event.left {
+.event > .left {
     float: right;
 }
 
-.event.right {
+.event > .right {
     float: left;
 }
 
@@ -371,10 +374,15 @@ footer {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
     section {
       margin-left: 20px;
       margin-right: 20px;
+    }
+
+    .photo-container {
+        margin-bottom: 120px;
+        margin-top: 100px;
     }
 
     #portrait {
@@ -385,6 +393,28 @@ footer {
     #about-photo {
         height: 50vh;
         width: auto;
+    }
+
+    #contact-photo {
+        height: 45vh;
+        width: auto;
+    }
+    
+    .contact-container {
+        margin-top: 75px;
+    }
+
+    .timeline1 {
+        width: auto;
+        margin-top: 40px;
+    }
+
+    .event > .left {
+        float: none;
+    }
+    
+    .event > .right {
+        float: none;
     }
 
     .flip {
@@ -398,6 +428,10 @@ footer {
 
     .nav-links {
         display: none;
+    }
+
+    .child-container {
+        flex: 0 1 auto;
     }
 
     .hamburger {
