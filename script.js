@@ -1,14 +1,14 @@
-// Select the hamburger in the html
+//SELECTS THE HAMBURGER IN THE HTML
 const hamburger = document.querySelector('.hamburger');
- // Select the overlay in the html
+ //SELECTS THE OVERLAY IN THE HTML
 const overlay = document.querySelector('.overlay');
 
-// Open the overlay when the hamburger is clicked (event listener)
+//EVENT LISTENER WAITS FOR EVENT(CLICK) TO HAPPEN, THEN DISPLAYS THE OVERLAY
 hamburger.addEventListener('click', function () {
-    overlay.style.display = 'block'; // Display the overlay
+    overlay.style.display = 'block';
 });
 
-// Close the overlay when the user clicks on it (event listener)
+//HIDES THE OVERLAY WHEN USER CLICKS ON IT(THE OVERLAY)
 overlay.addEventListener('click', function () {
-    overlay.style.display = 'none'; // Hide the overlay
+    overlay.style.display = 'none';
 });

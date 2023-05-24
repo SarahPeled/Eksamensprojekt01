@@ -12,6 +12,12 @@ font-size: 16px;
 margin: 0;
 }
 
+section {
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+/*HEADINGS START*/
 h1 {
     color: #FFFFFF;
     font-size: 58px;
@@ -25,12 +31,14 @@ h2 {
 h3 {
     font-size: 16px;
 }
+/*HEADINGS END*/
 
 p {
     text-align: left;
     line-height: 175%;
 }
 
+/*SPECIFIC PHOTOS START*/
 #portrait {
     height: 78vh;
     width: auto;
@@ -46,7 +54,9 @@ p {
     height: 70vh;
     border-radius: 2%;
 }
+/*SPECIFIC PHOTOS END*/
 
+/*MAIL START*/
 #mail {
     display: flex;
     align-items: center;
@@ -94,11 +104,7 @@ p {
     opacity: 1;
     transition: ease-in-out 0.1s;
 }
-
-section {
-    margin-left: 130px;
-    margin-right: 130px;
-}
+/*MAIL END*/
 
 .get-in-touch-button {
     background-color: #1bb9e5;
@@ -172,7 +178,7 @@ a:hover {
     height: 100%;
     background-color: #202020;
     display: none; /* Initially hidden */
-    z-index: 9999;
+    z-index: 99;
 }
 
 .overlay-nav-links {
@@ -187,15 +193,12 @@ a:hover {
 }
 
 .overlay-nav-links > li {
-    margin-bottom: 1.5rem;
+    margin-bottom: 25px;
 }
 
 .overlay-nav-links > a {
-    color: #fff;
-    font-size: 1.5rem;
+    color: #ffffff;
     text-decoration: none;
-    font-size: 36px;
-    font-weight: 500;
 }
 
 /*#frontpage {grid-area: fp;}
@@ -439,10 +442,6 @@ footer {
 
     .nav-links {
         display: none;
-    }
-
-    .overlay-nav-links {
-        margin-top: 25%;
     }
 
     .hamburger {

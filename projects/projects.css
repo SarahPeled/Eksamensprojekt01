@@ -7,6 +7,7 @@ color: #b1b0b0;
 font-size: 16px;
 }
 
+/*HEADINGS START*/
 h1 {
     color: #FFFFFF;
     font-size: 58px;
@@ -21,6 +22,7 @@ h3 {
     font-size: 20px;
     color: #FFFFFF;
 }
+/*HEADINGS END*/
 
 p {
     text-align: left;
@@ -53,6 +55,7 @@ section {
     justify-content: center;
 }
 
+/*LINKS START*/
 a {
     color: #1bb9e5;
     text-decoration: none;
@@ -61,8 +64,15 @@ a {
 a:hover {
     text-shadow: 0px 0px 25px rgba(65, 183, 247, 1);
 }
+/*LINKS END*/
 
 img {
+    height: auto;
+    width: 540px;
+    border-radius: 7px;
+}
+
+video {
     height: auto;
     width: 540px;
     border-radius: 7px;
